@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="fa" dir="rtl">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>آموزشگاه فنی و حرفه‌ای فرانو</title>
+  <link href="https://cdn.fontcdn.ir/Font/Persian/Vazir/Vazir.css" rel="stylesheet" />
+  <link rel="stylesheet" href="./assets/css/style.css" />
+</head>
+<body>
+
+
+<!-- loading  -->
+   <div id="loading">
+          <div id="mainContent" style="display: block;">
+    <div class="card">
+      <div class="mac-header">
+        <span class="red"></span>
+        <span class="yellow"></span>
+        <span class="green"></span>
+      </div>
+      <span class="card-title">آموزشگاه فنی و حرفه ای فرانو</span>
+      <p class="card-description">فرانو ، مرکزی برای توسعه فرزند دلبندتان</p>
+      <span class="card-tag">TAG JS</span>
+      <span class="card-tag">TAG JS</span>
+      <div class="code-editor">
+        <pre><code>&lt;h1&gt; کیفیت اتفاقی نیست  &lt;/h1&gt;</code></pre>
+      </div>
+    </div>
+  </div>
+  </div>
+<!-- loading  -->
+
+
+<!-- HEADER  -->
+  <header class="main-header">
+    <h1>آموزشگاه فنی و حرفه‌ای فرانو</h1>
+    <a href="card.html" class="btn-card">شماره کارت</a>
+  </header>
+
+  <section class="filter-section">
+    <input type="text" id="searchInput" placeholder="جستجوی دوره..." />
+    <select id="categoryFilter">
+      <option value="all">همه حوزه‌ها</option>
+      <option value="وب">وب</option>
+      <option value="گرافیک">گرافیک</option>
+      <option value="برنامه‌نویسی">برنامه‌نویسی</option>
+    </select>
+    <select id="installmentFilter">
+      <option value="all">همه نوع پرداخت</option>
+      <option value="true">اقساطی</option>
+      <option value="false">نقدی</option>
+    </select>
+  </section>
+
+  <!-- اینجا کارت‌ها به صورت داینامیک توسط JS اضافه میشن -->
+  <section class="courses-grid" id="coursesContainer"></section>
+
+  <footer class="site-footer">
+    <div class="footer-container">
+      <div class="footer-section">
+        <h3>آموزشگاه فرانو</h3>
+        <p>آموزش تخصصی مهارت‌های فنی و کاربردی برای ورود به بازار کار.</p>
+      </div>
+      <div class="footer-section">
+        <h4>لینک‌های سریع</h4>
+        <ul>
+          <li><a href="#">درباره ما</a></li>
+          <li><a href="#">دوره‌ها</a></li>
+          <li><a href="#">تماس با ما</a></li>
+        </ul>
+      </div>
+      <div class="footer-section">
+        <h4>تماس با ما</h4>
+        <p>تلفن: ۰۲۱-۱۲۳۴۵۶۷۸</p>
+        <p>ایمیل: info@faranoedu.ir</p>
+        <p>آدرس: تهران، خیابان مثال، پلاک 12</p>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <p>© 2025 آموزشگاه فنی و حرفه‌ای فرانو. تمام حقوق محفوظ است.</p>
+    </div>
+  </footer>
+
+
+  <script>
+    window.addEventListener("DOMContentLoaded", () => {
+      setTimeout(() => {
+        // document.getElementById("loading").style.display = "none";
+        // document.getElementById("mainContent").style.display = "block";
+        document.getElementById("loading").style.display = "none";
+        document.getElementById("mainContent").style.display = "none";
+      }, 3000);
+    });
+  </script>
+  <script src="./assets/js/main.js"></script>
+</body>
+</html>
